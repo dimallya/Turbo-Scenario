@@ -20,7 +20,7 @@ spec:
           value: cpu
         - name: CPU_PERCENT
           value: "95"
-        image: quay.io/ecotz/sampleapp:1.0
+        image: quay.io/ecotz/sampleapp:latest
         imagePullPolicy: Always
         name: beekman-1
         resources:
@@ -37,7 +37,7 @@ spec:
           value: cpu
         - name: CPU_PERCENT
           value: "95"
-        image: quay.io/ecotz/sampleapp:1.0
+        image: quay.io/ecotz/sampleapp:latest
         imagePullPolicy: Always
         name: beekman-2
         resources:
